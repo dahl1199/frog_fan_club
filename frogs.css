@@ -1,0 +1,60 @@
+body {
+    color:#133E24;
+    background-color:#97A479;
+    font-family:astroSpace;
+}
+
+@font-face {
+    font-family: astroSpace;
+    src: url(AstroSpace.otf);
+}
+
+h1 {
+    text-align:center;
+}
+
+h2 {
+    text-align:center;
+}
+
+img{
+    width:50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+div{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+div p{
+    text-decoration-line:underline;
+}
+
+div ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+
+div li {
+
+}
+
+div input{
+    width:100px
+}
+
+footer{
+    background-color:#849263;
+    width:100%;
+    position:absolute;
+    padding:5px;
+    margin-top:20px;
+    left:0;
+}
